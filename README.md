@@ -9,6 +9,8 @@
 Projeto integrador do curso de análise e desenvolvimento de sistemas do SENAC, construído
 utilizando __NodeJS 14__ e __Angular 11__.
 
+VÍDEO COM INSTRUÇÃO DE USO DO APP: https://youtu.be/0qpcJE4_62A 
+
 ### Contribuidores
 
 - Alexya de Sousa Costa
