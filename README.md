@@ -1,3 +1,26 @@
+```html
+<h2>Projeto All Note</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Planejado e desenvolvido por:</h2>
+
+            <div class="wrap">
+            
+			<li>Alexya de Sousa Costa</li>
+			<li>Samuel Rufino de Souza</li>
+			<li>Rodrigo Cardoso de Sá</li>
+			<li>Kleber Nogueira Costa</li>
+			<li>Vinícius de Oliveira Costa</li>
+			<li>Jefferson Rodrigo Ferreira</li>
+
+            </div>
+        </div>
+    </div>
+</pre>
+```
+
 # AllNotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
