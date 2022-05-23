@@ -1,0 +1,56 @@
+.tela-nova-nota-container {
+    width: 100%;
+    min-height: calc(100vh - 63px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    position: relative;
+
+    .titulo{
+        font-weight: 300;
+        font-size: larger;
+    }
+
+    &-content {
+        display: grid;
+        grid-template-areas: 'imgFoto imgFoto imgAudio imgAudio imgTrad imgTrad ';
+        grid-gap: 10px;
+        
+       
+        .imgFoto {            
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+        }
+
+        .imgAudio {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+        }
+
+        .imgTrad {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+        }
+    }
+
+
+
+    &-input #Entrar {
+        font-weight: 200;
+        color: #fff;
+        border-radius: 50px;
+        border: 2px solid green;
+        background-color: #71AF8E;
+        margin-top: 25%;
+    }
+
+    &-input #Anotacao {
+        border: 1px solid green;
+        background-color: #E5E5E5;
+    }
+
+}

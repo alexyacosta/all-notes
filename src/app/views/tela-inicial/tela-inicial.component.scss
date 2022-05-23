@@ -1,0 +1,71 @@
+.tela-inicial-container {
+    font-family: 'Roboto';
+
+    &-top {
+        display: grid;
+        grid-template-areas: 'imagem imagem text text text';
+        padding: 15px;
+
+        &-imagem {
+            position: absolute;
+            width: 59px;
+            height: 59px;
+            left: 34px;
+            top: 55px;
+        }
+
+        &-text {
+            margin-top: -15%;
+            font-size: large;
+            grid-area: label;
+            text-align: left;
+        }
+
+        &-buttons {
+            display: grid;
+            grid-template-areas: 'busca busca busca busca busca';
+            padding: 20px;
+            input.busca {
+                font: 'Roboto';
+                display: flex;
+                margin: auto;
+                flex-direction: column;
+                border: 2px solid #71AF8E;
+                border-radius: 12px;
+                padding: 4px 7px;
+            }
+
+            input.busca:focus {
+                border-color: #71AF8E;
+            }
+
+            img.acessa {
+                display: flex;
+                margin: auto;
+            }
+
+        }
+
+    }
+
+    &-content {
+        border-radius: 16px;
+        border: 1px solid #71AF8E;
+        padding: 15px;
+        margin: 20px;
+        background-color: #E5E5E5;
+
+
+        p {
+            font: 'Roboto';
+            font-weight: bold;
+        }
+
+    }
+
+
+    &-bottom {
+        margin-bottom: auto;
+        margin-left: 80%;
+    }
+}
