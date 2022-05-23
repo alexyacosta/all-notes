@@ -1,0 +1,37 @@
+.tela-login-container {
+  width: 100%;
+  min-height: calc(100vh - 63px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  position: relative;
+
+
+  &-form {
+    input {
+      font: 'Roboto';
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      border: 2px solid #71AF8E;
+      border-radius: 12px;
+      padding: 4px 7px;
+  }
+
+  .input:focus {
+      border-color: #71AF8E;
+  }
+  }
+
+  &-buttons #Entrar{
+    font-weight: 200;
+    color: #E5E5E5;
+    border-radius: 50px;
+    border: 2px solid green;
+    background-color: #71AF8E;
+  }
+
+
+}
+
