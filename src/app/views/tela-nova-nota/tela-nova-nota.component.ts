@@ -8,9 +8,13 @@ import { Router } from "@angular/router";
 })
 export class TelaNovaNotaComponent implements OnInit  {
 
-    constructor() { }
+    constructor(private route: Router) { }
 
     ngOnInit(): void {
         console.log("oi")
+    }
+
+    entrar(){
+        this.route.navigate(['tela-inicial']);
     }
 }
